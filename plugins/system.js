@@ -69,7 +69,7 @@ async(conn, mek, m,{from, l, quoted, body, isCmd, umarmd, args, q, isGroup, send
 
 try{
 let madeSetting =`
-*[ •  SILENT-SOBX-MD - SETTINGS‎ • ]*
+*[ •  ZiDi--MD - SETTINGS‎ • ]*
 *╭┈───────────────•*
 *┊* *♾️ AUTO_READ_STATUS:* ➠ ${config.AUTO_READ_STATUS}
 *┊* *♾️ MODE:* ➠ ${config.MODE} 
@@ -89,7 +89,7 @@ let madeSetting =`
 *┊* *♾️ READ_MESSAGE:* ➠ ${config.READ_MESSAGE}
 *╰┈───────────────•*
 *•────────────•⟢*
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ sɪʟᴇɴᴛʟᴏᴠᴇʀ⁴³²
+> © ZiDiMalik012
 *•────────────•⟢*
 `
 
@@ -113,7 +113,7 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 let status = `
-*[ •  SILENT-SOBX-MD - UPTIME ‎ • ]*
+*[ •  ZiDi-MD - UPTIME ‎ • ]*
 *╭┈───────────────•*
 *│  ◦* *_UPTIME:➠_*
 *│  ◦* ${runtime(process.uptime())}
@@ -130,7 +130,7 @@ let status = `
 *╰┈───────────────•*
 
 *•────────────•⟢*
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ sɪʟᴇɴᴛʟᴏᴠᴇʀ⁴³²
+> © ZiDiMalik012
 *•────────────•⟢*
 `
 await conn.sendMessage(from,{image:{url:config.ALIVE_IMG},caption:`${status}`},{quoted:mek})
@@ -154,21 +154,21 @@ try{
 let repo =`
 *[ •  B O T - O W N E R ‎ • ]*
 *╭┈───────────────•*
-*│  ◦* *SILENTLOVER432*
+*│  ◦* *ZiDi-Malik*
 *╰┈───────────────•*
 
-*[ •  SILENT-SOBX-MD - REPO ‎ • ]*
+*[ •  ZiDi-MD - REPO ‎ • ]*
 *╭┈───────────────•*
 *│  ◦* *https://github.com/SILENTLOVER40/SILENT-SOBX-MD*
 *╰┈───────────────•*
 
 *[ •  SUPPORT - GROUP‎ • ]*
 *╭┈───────────────•*
-*│  ◦* *https://whatsapp.com/channel/0029VaHO5B0G3R3cWkZN970s*
+*│  ◦* *https://whatsapp.com/channel/0029VayPKJNGzzKZQLypeR36*
 *╰┈───────────────•*
 
 *•────────────•⟢*
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ sɪʟᴇɴᴛʟᴏᴠᴇʀ⁴³²
+> © ZiDiMalik012
 *•────────────•⟢*
 `
 await conn.sendMessage(from, { text: repo ,
