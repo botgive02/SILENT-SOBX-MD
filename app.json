@@ -8,9 +8,9 @@
     "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Put the session-id here.",
+      "description": "Xn40BJxY#PtHcgG_qvI6R4-QmGabfGZJUg8i9jb4HYETltws1P-I",
       "required": true,
-      "value": ""
+      "value": "Xn40BJxY#PtHcgG_qvI6R4-QmGabfGZJUg8i9jb4HYETltws1P-I"
     },  
     
     "ALIVE_IMG": {
@@ -106,7 +106,7 @@
 
     "READ_MESSAGE": {
       "description": "Make it true if you want bot read your all sms just now.",
-      "required": true,
+      "required": false,
       "value": "false"
     }
 
